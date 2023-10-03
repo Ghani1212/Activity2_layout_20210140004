@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frame_Layout">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background_bmw" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="125dp"
+        android:layout_width="157dp"
+        android:layout_height="154dp"
+        app:srcCompat="@drawable/logo_bmw" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#98A8A7"
+        android:text="@string/Button_layout"
+        app:strokeColor="@color/white" />
+</FrameLayout>
+

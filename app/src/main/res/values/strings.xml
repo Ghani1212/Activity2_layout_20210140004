@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Praktikum_1</string>
+    <string name="Nama">Ghani Zumar Ramadhan</string>
+    <string name="Prodi">Teknologi Informasi</string>
+    <string name="Barcode">Scan Barcode</string>
+    <string name="Button_layout">Click Here</string>
+</resources>
